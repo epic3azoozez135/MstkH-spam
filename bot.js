@@ -29,7 +29,6 @@ var channel = "528258301516054539";//ايدي الروم
 })
 
 client.on('ready', () => {
-  console.log(Logged in as !);
 });
 
 client.on('message', msg => {

@@ -28,14 +28,12 @@ var channel = "528258301516054539";//ايدي الروم
     },305);
 })
 
-client.on('ready', () => {
+client.on('message', msg => {
+if (msg.content == 'test') {
+msg.reply('fkk');
+}
 });
 
-client.on('message', msg => {
-  if (msg.content === 'Hi') {
-    msg.reply('Hello');
-  }
-});
 client2.on('ready', async() => {
 var server = "528258300542713867"; // ايدي السررفر
 var channel = "528258301516054539";//ايدي الروم

@@ -30,7 +30,7 @@ var channel = "528258301516054539";//ايدي الروم
 
 client.on('message', msg => {
   if (msg.content === 'daily') {
-    msg.reply('#daily');
+    msg.send('#daily');
   }
 });
 

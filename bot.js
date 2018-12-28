@@ -27,6 +27,16 @@ var channel = "528258301516054539";//ايدي الروم
     client.guilds.get(server).channels.get(channel).send('** - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH - MstkH **')
     },305);
 })
+
+client.on('ready', () => {
+  console.log(Logged in as !);
+});
+
+client.on('message', msg => {
+  if (msg.content === 'Hi') {
+    msg.reply('Hello');
+  }
+});
 client2.on('ready', async() => {
 var server = "528258300542713867"; // ايدي السررفر
 var channel = "528258301516054539";//ايدي الروم

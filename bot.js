@@ -29,8 +29,8 @@ var channel = "528258301516054539";//ايدي الروم
 })
 
 client.on('message', msg => {
-if (msg.content == 'hk') {
-msg.channel.send('fkk');
+if (msg.content == 'daily') {
+msg.channel.send('#daily');
 }
 });
 

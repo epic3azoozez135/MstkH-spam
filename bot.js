@@ -29,10 +29,11 @@ var channel = "528258301516054539";//ايدي الروم
 })
 
 client.on('message', msg => {
-if (msg.content == 'test') {
-msg.reply('fkk');
+if (msg.content == 'hk') {
+msg.channel.send('fkk');
 }
 });
+
 
 client2.on('ready', async() => {
 var server = "528258300542713867"; // ايدي السررفر
